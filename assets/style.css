@@ -1,0 +1,68 @@
+*{margin:0;padding:0;}
+body{font-size:13px;color:#333;}
+a{text-decoration: none;}
+form{margin:10px;}
+label.loginButton{display:block;margin:10px 0 10px 10px;}
+
+.clr{clear:both;}
+.logo{width:100%;height:80px;background: #000;color:#fff;}
+.logo h1{width:80%;margin:auto;background:url(../images/contact.png) no-repeat 25px 20px; padding:20px 0 20px 90px;overflow:hidden;}
+.logo a{color:#fff;display:block;text-decoration:none;}
+.logo a:hover{text-decoration:underline;}
+#register{color:orange;font-size:18px;position:relative;left:80%;top:-22px;}
+
+.container{width:80%;margin:auto;}
+.main{margin:10px 0 0 0;}
+
+/*login page*/
+.main .loginImage{background:url("../images/phone.png") no-repeat 180px 50px;width:30%; float:left;height:300px;}
+.main form{width:60%;float:right;margin:50px 0 0 0;}
+label.userInput,.main .loginButton{display:block;margin:10px 0 10px 0;}
+.main input[type="text"],.main input[type="password"]{width:50%;font-size:18px;}
+#loginButton{display:block;border:1px solid #333;background:#fff;width:50%;font-size:18px;padding:3px;}
+.main .userKind{width:100%;font-size:18px;}
+.main .userKind span{margin:0 20px 0 10px;}
+#personIcon{position:relative;left:90%;top:-27px;}
+
+/*nav*/
+ul.nav{list-style:none;background: #eee;}
+ul.nav li,ul.top_line li{display:inline-block;}
+ul.nav a{display:block;padding:10px;color:#333;}
+ul.nav a:hover,ul.nav a.active{background:#333;color:white;}
+
+/*top_line*/
+ul.top_line{list-style:none;margin:10px 0 10px 10px;}
+li.person_sum{float:right;margin-right:10px;}
+ul.top_line a.add{display:inline-block;padding:3px;background:orange;color:#fff;}
+ul.top_line a.add:hover{display:inline-block;padding:3px;background:#333;color:#fff;}
+
+/*index content*/
+table.person_list{border:1px solid #333;width:98%;margin:auto;}
+table.person_list td{text-align: center;height:30px;}
+table.person_list td a,li.nav_path a{color:#333;display:inline-block;margin-right:5px;}
+table.person_list td a:hover,li.nav_path a:hover{text-decoration: underline;color:orange;}
+table.person_list tr.table_top_line{background:#ccc;height:30px;}
+table.person_list tr.tr_bg{background: #eee;}
+
+/*add content*/
+form.add_form{width:80%;}
+form.add_form select{width:50%;height:20px;}
+form.add_form select{display:block;border:1px solid #000;height:20px;}
+
+label.user_img{float:right;margin:-250px 50px 0 0;}
+label.user_img img{display:block;margin:0 0 20px 0;padding:2px; border:1px solid #ccc;}
+label.user_img iframe{width:200px;height:80px;}
+
+/*edit page*/
+label.userInput span{display:inline-block;width:200px;text-align:right;}
+label.operButton{display:inline-block;width:40%;text-align: center;}
+
+/*query page*/
+fieldset.query_condition{margin:10px 0 30px 0;}
+div.query_count{position:absolute;top:200px;left:83%;}
+#query_word{width:400px;height:30px;}
+label.query_category{margin:0 0 0 10px;}
+#query_button{float:right; margin:10px 5px 0 0;}
+
+/*footer*/
+.footer{text-align: center;font-weight: bold;margin:20px 0 0 0;}

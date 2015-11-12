@@ -1,0 +1,21 @@
+<fieldset class="query_condition">
+	<legend>查询条件</legend>
+	<form action="query.php?export=-1" method="post" accept-charset="utf-8" class="query_form">
+		<label class="query_category">
+			<input type="text" name="queryWord" placeholder="请输入查询关键字" id="query_word"/>
+		</label>
+		<label class="query_category">
+			<input type="radio" name="queryCategory" value="name" />
+			<span>姓名</span>
+		</label>
+        <label class="query_category">
+        	<input type="radio" name="queryCategory" value="enteryear"/>
+        	<span>入学年份</span>
+        </label>
+        <label class="query_category">
+        	<input type="radio" name="queryCategory" value="class"/>
+        	<span>班级</span>
+        </label>
+		<input type="submit" value="查询" id="query_button"/>
+	</form>
+</fieldset>
